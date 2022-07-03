@@ -1,3 +1,3 @@
 # LPDA Docs
 
-Built using [Hugo](https://gohugo.io/) with [hugo-theme-learn](https://themes.gohugo.io/themes/hugo-theme-learn/)
+Built using [Hugo](https://gohugo.io/) with [hugo-theme-relearn](https://github.com/McShelby/hugo-theme-relearn)

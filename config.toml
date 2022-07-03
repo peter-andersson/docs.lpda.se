@@ -2,7 +2,7 @@ baseURL = "https://docs.lpda.se/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "LPDA docs"
-theme = "hugo-theme-learn"
+theme = "hugo-theme-relearn"
 
 [params]
   editURL = "https://github.com/peter-andersson/docs.lpda.se/edit/main/content/"
@@ -12,10 +12,11 @@ theme = "hugo-theme-learn"
   disableBreadcrumb = false
   disableNextPrev = true
   disableLandingPageButton = true
-  disableMermaid = false
-  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
-  titleSeparator = "::"
-  themeVariant = "blue"
+  disableMermaid = true
+  disableToc = true
+  disableMathJax = true
+  titleSeparator = "-"
+  themeVariant = "relearn-dark"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
