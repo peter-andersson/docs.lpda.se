@@ -1,4 +1,21 @@
-baseURL = 'https://docs.lpda.se/'
-languageCode = 'en-us'
-title = 'LPDA docs'
-theme = 'ananke'
+baseURL = "https://docs.lpda.se/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "LPDA docs"
+theme = "hugo-theme-learn"
+
+[params]
+  editURL = "https://github.com/peter-andersson/docs.lpda.se/edit/main/content/"
+  description = "LPDA docs"
+  author = "Peter Andersson"
+  showVisitedLinks = false
+  disableBreadcrumb = false
+  disableNextPrev = true
+  disableLandingPageButton = true
+  disableMermaid = false
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
+  themeVariant = "blue"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
