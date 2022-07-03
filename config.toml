@@ -1,0 +1,4 @@
+baseURL = 'https://docs.lpda.se/'
+languageCode = 'en-us'
+title = 'LPDA docs'
+theme = 'ananke'
